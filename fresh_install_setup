@@ -1,0 +1,13 @@
+#!/bin/bash
+
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install wget
+brew cask install google-chrome
+brew install node
+wget http://www.webex.com/downloads/WebexTeams.dmg
+wget https://go.microsoft.com/fwlink/?LinkID=534106
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl https://install.meteor.com/ | sh 
+wget https://git-scm.com/download/mac
+npm install -g testcafe
